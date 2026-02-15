@@ -29,6 +29,16 @@ a {
   color: inherit;
 }
 
+.address {
+  padding-left: 185px;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0.18px;
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+  font-style: normal; 
+}
+
 img {
   width: 100%;
 }
