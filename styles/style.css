@@ -134,3 +134,83 @@
   font-weight: 500;
   text-align: center;
 }
+
+.title_lots {
+  padding-top: 179px;
+  padding-bottom: 26px;
+  padding-left: 64px;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container_lots {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 25px;
+  justify-content: flex-start; 
+  padding: 0; 
+  margin: 0 auto;
+  margin-left: 20px; 
+}
+
+.card_lots {
+  max-width: 334px;
+  min-height: 563px;
+  flex-grow: 1;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  padding: 51px 40px 48px;
+  justify-content: space-between;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card_about_cinema {
+  background-image: url(./../images/card-lot-01.jpg);
+}
+
+.card_about_book {
+  background-image: url(./../images/card-lot-02.jpg);
+}
+
+.card_about_picture {
+  background-image: url(./../images/card-lot-03.jpg);
+}
+
+.card_title {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.text_on_card {
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.view_more {
+  display: block;
+  text-underline-offset: 3px;
+  padding-top: 30px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+  margin-left: 64px;
+}
