@@ -271,3 +271,46 @@
 .text_down {
   padding-top: 25px;
 }
+.footer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 180px 50px 88px;
+  gap: 140px;
+  align-items: flex-start;
+}
+
+.footer_address {
+  font-style: normal;
+  padding-left: 0px; 
+}
+
+.footer_menu {
+  padding-left: 35px;
+}
+
+.footer_menu_links {
+  list-style-type: none;
+  text-underline-offset: 3px;
+}
+
+.footer_links {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer_main {
+  text-decoration: none;
+}
+
+.images_footer {
+  width: 48px;
+  height: 48px;
+}
+
+.footer_images {
+  display: flex;
+  gap: 48px;
+}
