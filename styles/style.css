@@ -96,7 +96,7 @@
 } 
 
 .text_cover .no_spacing_ok { 
-  letter-spacing: 0px; /* сброс межбуквенного разрыва */ 
+  letter-spacing: 0px; 
 }
 
 .text_cover .half_spacing { 
