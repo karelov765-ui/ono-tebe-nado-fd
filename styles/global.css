@@ -29,15 +29,7 @@ a {
   color: inherit;
 }
 
-.address {
-  padding-left: 185px;
-  font-size: 18px;
-  line-height: 24.3px;
-  letter-spacing: 0.18px;
-  font-family: "Raleway", sans-serif;
-  list-style-type: none;
-  font-style: normal; 
-}
+
 
 img {
   width: 100%;
@@ -47,40 +39,4 @@ button {
   font: inherit;
 }
 
-.header {
-  display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  align-items: center;
-  padding-top: 92px;
-  padding-left: 24px;
-  padding-bottom: 92px;
-  padding-right: 24px;
-}
-
-.header_menu {
-  display: flex;
-  justify-self: center;
-
-}
-
-.menu_links {
-  display: flex;
-  gap: 32px;
-  list-style-type: circle;
-  padding-right: 7px;
-}
-
-.link_list {
-  font-size: 18px;
-  font-weight: 400;
-  text-underline-offset: 4px;
-}
-
-.main_link_marker {
-  list-style-type: none;
-}
-
-.link_main {
-  text-decoration: none;
-}
 
