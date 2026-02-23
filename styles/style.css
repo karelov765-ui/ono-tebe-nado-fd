@@ -90,10 +90,11 @@
 
   text-align: center;
 } 
-}
+
 
 .text_right {
   text-align: right;
+  align-self: flex-end;
 } 
 
 .no_letter_spacing {
