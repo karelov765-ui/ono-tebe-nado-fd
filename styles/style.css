@@ -65,10 +65,13 @@
 .cover_title {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   padding: 165px 50px 147px;
-  gap: 20px; 
-  text-align: center;
   font-size: 100px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 .cover_title  .span {
@@ -78,28 +81,24 @@
   letter-spacing: 30px;
 }
 
-.text_cover { 
-  
-  align-self: flex-start;
-  line-height: 115%;
-  transform: translateY(2px);
-  text-align: center;  
-  word-spacing: 5px; 
+.text_cover {
+  display: block;
+  line-height: 1.15;
 }
 
 .text_center {
-  align-self: center;  
-  text-align: center;  
+
+  text-align: center;
+} 
 }
 
 .text_right {
-  align-self: flex-end;  
-  text-align: right; 
+  text-align: right;
 } 
 
-.text_cover .spacing  {
-  letter-spacing: 60px;  
-} 
+.no_letter_spacing {
+  letter-spacing: normal;
+}
 
 .text_cover .no_spacing_ok { 
   letter-spacing: 0px; 
