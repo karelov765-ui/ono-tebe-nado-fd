@@ -34,6 +34,10 @@
 .link_main {
   text-decoration: none;
 }
+.header_logo {
+  width: 148px;
+  height: 105px;
+}
 .cover {
   position: relative;
   min-height: 757px;
