@@ -17,6 +17,15 @@
   justify-self: end;
 }
 
+.address {
+  list-style: none;
+  font-style: normal;
+  max-width: 240px;
+  font-size: 18px;
+  line-height: 24.3px;
+  text-underline-offset: 4px;
+}
+
 .menu_links {
   display: flex;
   gap: 32px;
